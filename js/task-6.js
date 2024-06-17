@@ -13,7 +13,7 @@ const destroy = (event) => {
  }   
 
 const boxSize = (index) => {
-    size = 30 * index;
+    size = 30 + 10*(index-1);
     return size
 }
 
